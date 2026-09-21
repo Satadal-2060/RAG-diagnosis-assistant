@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+xgboost
+pandas
+numpy
+faiss-cpu
+groq
+python-dotenv
+sentence-transformers
