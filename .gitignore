@@ -1,0 +1,23 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Data (large files, don't commit raw dataset)
+data/*.csv
+!data/.gitkeep
+
+# Models (add exceptions below if you want to commit small .pkl files)
+models/*.pkl
+!models/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
