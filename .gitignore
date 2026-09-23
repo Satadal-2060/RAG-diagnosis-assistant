@@ -24,6 +24,7 @@ models/*.pkl
 !models/classifier.pkl
 !models/classifier.pkl
 !models/classifier.pkl
+!models/classifier.pkl
 
 # OS / IDE
 .DS_Store
