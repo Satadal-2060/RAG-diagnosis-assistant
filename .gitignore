@@ -15,8 +15,12 @@ data/*.csv
 !data/.gitkeep
 !data/Training.csv
 !data/Testing.csv
+!data/rag_corpus/symptom_Description.csv
+!data/rag_corpus/symptom_precaution.csv
 !data/Training.csv
 !data/Testing.csv
+!data/rag_corpus/symptom_Description.csv
+!data/rag_corpus/symptom_precaution.csv
 
 # Models (add exceptions below if you want to commit small .pkl files)
 models/*.pkl
