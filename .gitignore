@@ -13,10 +13,13 @@ venv/
 # Data (large files, don't commit raw dataset)
 data/*.csv
 !data/.gitkeep
+!data/Training.csv
+!data/Testing.csv
 
 # Models (add exceptions below if you want to commit small .pkl files)
 models/*.pkl
 !models/.gitkeep
+!models/classifier.pkl
 !models/classifier.pkl
 !models/classifier.pkl
 
