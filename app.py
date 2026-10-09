@@ -23,7 +23,7 @@ def classify_symptoms(symptoms):
     return predict(clf, symptoms, symptom_vocab)
 
 def run_pipeline(text: str):
-    symptoms = extract_symptoms(text)
+    symptoms = extract_symptoms(text,symptom_vocab)
     predictions = classify_symptoms(symptoms)
 
     if predictions and predictions[0]["confidence"] < CONF_THRESHOLD:
